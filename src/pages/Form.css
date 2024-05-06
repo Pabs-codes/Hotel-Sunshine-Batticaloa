@@ -1,0 +1,98 @@
+/* BookingForm.css */
+
+.booking-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding: 50px;
+    border: none; /* Remove border */
+    border-radius: 15px; /* Add border-radius for glass effect */
+    background: linear-gradient(to bottom right, rgb(227, 155, 0), rgb(7, 7, 7)); /* Glass effect background gradient */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    background-image: url("../components/home/batt.png");
+  }
+  
+  .left-div,
+  .right-div {
+    flex: 1;
+    margin-bottom: 20px; /* Add space between left and right div */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Take full width */
+  }
+  
+  .form-group label {
+    display: block;
+    color: #fff;
+    font-family:sans-serif;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 8px; /* Add border-radius */
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.6); /* Light glass effect background */
+    color: #000; /* Black text color */
+    height: 40px;
+  }
+  
+  textarea {
+    height: 220px;
+  }
+  
+  button[type="submit"]:not(:disabled){
+    float: right;
+    padding: 10px 20px;
+    background-color: #e09710;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add button shadow */
+  }
+  
+  button[type="submit"]:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add button shadow */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .booking-form {
+       
+        border-radius: 1px;
+    }
+    .left-div,
+    .right-div {
+      flex: 100%; /* Make them take full width on smaller screens */
+    }
+  }
+
+  select:disabled {
+    background-color: #696969;
+    color: #4f4f4f;
+    cursor: not-allowed;
+  }
+  

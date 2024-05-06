@@ -1,0 +1,43 @@
+.menu3-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow menus to wrap on smaller screens */
+  }
+  
+  .menu3-left, 
+  .menu3-right {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .menu3-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu3-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .menu3-sections {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu3-section {
+    margin-bottom: 20px;
+  }
+  
+  .menu3-section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .menu3-item {
+    margin-bottom: 5px; }
+  

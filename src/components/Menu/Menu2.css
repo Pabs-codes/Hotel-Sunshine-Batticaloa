@@ -1,0 +1,132 @@
+.another-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  overflow-y: auto;
+  padding-bottom: 200px;
+ 
+}
+
+.another-menu-card {
+  /* flex: 1;  */
+  
+  background-color: rgb(19, 9, 53);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  /* height: 900px; */
+  background-image: url('./lunch\ \(1\).png');
+  transition: all 0.3s ease;
+  
+}
+
+.another-menu-card:hover {
+  background-image: url('./lunch\ \(2\).png');
+  border-radius: 30px;
+}
+
+.another-menu-card2 {
+  /* flex: 1;  */
+  
+  background-color: rgb(19, 9, 53);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  /* height: 900px; */
+  background-image: url('./lunch\ \(2\).png');
+  transition: all 0.3s ease;
+  
+}
+
+.another-menu-card2:hover {
+  background-image: url('./lunch\ \(1\).png');
+  border-radius: 30px;
+}
+
+.another-menu-card h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+.another-menu-card2 h2 {
+  font-size: 1rem; 
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+.another-menu-items p {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.another-menu-items ul {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #ccc;
+  font-size: 0.7rem;
+}
+
+.another-menu-items ul li {
+  list-style-type: none;
+}
+
+.menu-slider {
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+.menu-card {
+  outline: none; 
+ 
+}
+
+.left-menu,
+.right-menu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Smaller devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  .another-menu-container {
+   width: fit-content;
+  }
+  .another-menu-card,
+  .another-menu-card2 {
+    width: calc(50% - 20px); /* Adjust as needed */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .another-menu-card,
+  .another-menu-card2 {
+    width: calc(33.33% - 20px); /* Adjust as needed */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .another-menu-container {
+    gap: 30px;
+    padding: 40px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .another-menu-card,
+  .another-menu-card2 {
+    width: 450px; /* Reset width for larger screens if necessary */
+  }
+}

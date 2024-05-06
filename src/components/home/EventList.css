@@ -1,0 +1,71 @@
+.event-list {
+    margin: 2rem auto;
+    padding: 40px;
+    border-radius: 50px;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: #f7f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('./batt.png'); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  
+  }
+  
+
+  
+  .event-list-title {
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #ff914d; /* Orange color for the title */
+  }
+
+  .gallerytitle{
+    /* font-size: small; */
+    text-align: center;
+    color: #ff6303;
+  }
+
+  .gallerysubtitle{
+    font-size: medium;
+    text-align: center;
+    color: #141211;
+    margin-bottom: 50px;
+  }
+  
+  .event-list-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-list-items li {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
+    color: #ffffff; /* Darker text color */
+    border-bottom: 1px dotted #ff8c00; /* Dotted orange border */
+    padding-bottom: 5px;
+    transition: color 0.3s ease; /* Smooth transition */
+    animation: shake 5s ease infinite alternate; /* Shake animation */
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

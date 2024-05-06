@@ -1,0 +1,72 @@
+.follow-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  
+  .hotel-logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .follow-text {
+    margin: 10px 0;
+  }
+  
+  .follow-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .follow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b5998; /* Facebook blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    transition: transform 0.2s;
+  }
+
+  .follow-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36ac42; /* Facebook blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    transition: transform 0.2s;
+  }
+  
+  .follow-button:hover {
+    background-color: #2a4888; 
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .follow-button2:hover{
+    background-color:  #36ac42; 
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  .facebook-icon {
+    margin-right: 5px;
+  }
+  
+  .whatsapp-icon {
+    margin-right: 5px;
+  }
+  
